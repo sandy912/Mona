@@ -21,8 +21,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src = "<?php echo base_url();?>js/script.js"></script>
 <script  src ="<?php echo base_url();?>js/new-age.js"></script>
-<script src="<?php echo base_url();?>js/inc/TimeCircles.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119531091-1"></script>
   <script>
