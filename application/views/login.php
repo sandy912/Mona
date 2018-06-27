@@ -3,8 +3,11 @@
 <header class="masthead mobile-panel">
       <div class="container">
         <div class="row">
-          <div class="register-panel">
-              <div class="panel-heading">
+          <div class="register-panel register">
+            <center>
+              <img  src="<?php echo base_url('img/icon.png') ?>" style="width: 80px;" />
+            </center>
+              <div class="panel-heading" style="padding-top: 50px;">
                   <h3 class="panel-title"><center>Login</center></h3>
               </div>
               <?php
@@ -42,7 +45,7 @@
                     <br>
                     <input class="btn btn-outline btn-xl text-center" type="submit" value="login" name="login" >
                   </form>
-                  <center>Not registered?<br><a href="<?php echo base_url('user/register'); ?>">Register here</a></center>
+                  <center>Not registered?<br><a href="<?php echo base_url('user/index'); ?>">Register here</a></center>
               </div>
           </div>
         </div>

@@ -16,7 +16,6 @@
           </h3>
         </div>
         <div class="panel-body">
-
           <?php
                   $error_msg=$this->session->flashdata('error_msg');
                   if($error_msg){
@@ -26,7 +25,7 @@
                     </div>
                   <?php
                   }
-                   ?>
+          ?>
 
             <form role="form" method="post" action="<?php echo base_url('user/register_user'); ?>" >
               <label class="has-float-label">

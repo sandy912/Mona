@@ -5,6 +5,3 @@ function copyToClipboard(element) {
   document.execCommand("copy");
   $temp.remove();
 }
-$(document).ready(function () {
-  $('body').trigger('clik');
-})
