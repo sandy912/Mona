@@ -10,10 +10,13 @@ if(!$signedin){
   <div class="container">
     <div class="row">
       <div class="register-panel" style="max-width: 550px;">
-        <h4 class="text-center"><b>Thank you for signing up for Airdrop!</b></h4>
         <center>
-          <h5><b>Earn upto <h4 style="display: inline-block; font-weight: bold">1500$</h4> by inviting your friends</b></h5>
-          Now refer your friends to earn more FFC, each successful refferal will get you <h5 style="display: inline-block; font-weight: bold">10$</h5> worth of FFC.
+          <img  src="<?php echo base_url('img/icon.png') ?>" style="width: 80px;" />
+        </center>
+        <h4 class="text-center"><b>Thank you for Joining us on social media platforms!</b></h4>
+        <center>
+          Now reffer your friends to  earn more MONA coins.
+          Each successful refferal will get you 25 MONA coins.
         </center>
         <br>
         <div style="position:relative;">
@@ -30,7 +33,7 @@ if(!$signedin){
           </div>
           <script>
           var a2a_config = a2a_config || {};
-          a2a_config.linkname = "🔥Airdrop Firefly Coin🔥 ♦ GET $10 worth FFC coin for Free!! ♦ FFC team decided to relauch the old currency by adding multiple features like Machine Learning(ML) smart contracts, Unique ID, 10,000 TPS😍 #airdrops #airdrop #FFC @CoinFirefly ";
+          a2a_config.linkname = "🔥 Monacoin Exclusive Airdop 🔥 We Believe the community is the biggest asset. Therefore, we want to spread our love by offering an Airdrop. Apply and get 50 MONA.";
           a2a_config.linkurl = "<?php echo base_url('user/register/'); echo $this->session->userdata('user_secret'); ?>";
           </script>
           <script async src="https://static.addtoany.com/menu/page.js"></script>
@@ -38,40 +41,40 @@ if(!$signedin){
 
           <div class="outer-box">
                 <div class="box">
-                  <p>Invited</p>
+                  <p>Reffered</p>
                   <span><?php echo $this->session->userdata('myrefferals'); ?></span>
                   <span>Users</span>
                 </div>
                 <div class="box">
                   <p>Earned</p>
                   <span><?php
-                  $amount = (($this->session->userdata('myrefferals')*10)+10);
+                  $amount = (($this->session->userdata('myrefferals')*25)+50);
 
-                    if( $amount > 1500 ) {
-                      echo '1500';
+                    if( $amount > 150000 ) {
+                      echo '150000';
                     }
                     else {
                       echo $amount;
                     }
 
-                    ?>$</span>
-                  <span>Worth FFC</span>
+                    ?></span>
+                  <span>MONA</span>
                 </div>
           </div>
           <div class="cursor-banned withdraw-info">
             <label class="has-float-label cursor-banned">
               <input type="text" id="wallet" name="wallet" class="cursor-banned" placeholder="Wallet Address" style="font-size: 10px;" disabled/>
-              <span class="cursor-banned" style="font-size: 13px;">Wallet Address</span>
+              <span class="cursor-banned" style="font-size: 13px;">Withdraw Address</span>
             </label>
             <button class="copy-btn cursor-banned">Withdraw</button>
             <div class="cursor-banned">
-              <small class="cursor-banned">On Airdrop ending date or on reaching 40k participants your earned $ will be converted to equivalent FFC based on coin value at distribution time. Then you can Withdraw coins to your wallet.</small>
+              <small class="cursor-banned">After reaching 25k airdrop participants the withdraw functionality will be enabled. Until then stay calm and refer more people to Monacoin.</small>
             </div>
           </div>
-          <small><b>Warning:</b> If we find any unwanted activities like multiple accounts, bots, etc.. Your earned $ will not be converted to FFC.</small>
+          <small><b>Warning:</b> If we find any unusual activities like multiple accounts, bots, etc.. on your refferal link. Your account will be completely banned without any prior notice.</small>
           <br>
           <br>
-          <p>In case if you missed to follow Firefly Coin on <a href="https://t.me/CoinFirefly" target="_blank">Telegram</a>, <a href="https://twitter.com/CoinFirefly" target="_blank">Twitter</a> and <a href="https://www.facebook.com/fireflycoin/" target="_blank">Facebook</a> during registration. Here are the links to do it now. Only those who follow our social media channels will be eligible for airdrop.</p>
+          <p>Please follow and stay on our social media channels to receive the airdrop. Here are our social media platform links: <a href="https://t.me/CoinFirefly" target="_blank">Telegram</a>, <a href="https://twitter.com/CoinFirefly" target="_blank">Twitter</a> and <a href="https://www.facebook.com/fireflycoin/" target="_blank">Youtube</a>.</p>
         </div>
       </div>
     </div>

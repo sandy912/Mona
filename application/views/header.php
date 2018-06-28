@@ -4,9 +4,9 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="og:image" content="https://fireflycoin.ml/vendor/assets/banner1.png">
-      <meta property="og:title" content="MonaCoin(MONA) Airdrop - Get 100$ worth of Monacoin for Free">
-      <meta property="og:description" content="🔥 Monacoin 🔥 We Believe the community is the biggest asset. Therefore, we want to spread our love by offering an Airdrop. Register and get 100$ worth of MONA for Free.">
+      <meta property="og:image" content="https://airdrop-monacoin.ga/vendor/assets/banner1.png">
+      <meta property="og:title" content="MonaCoin(MONA) Exclusive Airdrop - Get 100$ worth of Monacoin for Free">
+      <meta property="og:description" content="🔥 Monacoin 🔥 We Believe the community is the biggest asset. Therefore, we want to spread our love by offering an Airdrop. Apply and get 50 MONA.">
       <title>MonaCoin(MONA) - Exclusive Airdrop for Social Media Supporters</title>
       <link rel='shortcut icon' href='/favicon.png' type='image/x-icon' />
       <link rel="stylesheet" href="<?php echo base_url();?>vendor/bootstrap/css/bootstrap.min.css" media="screen" title="no title">
@@ -16,6 +16,5 @@
       <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
       <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url();?>css/style.css">
-      <link rel="stylesheet" type = "text/css" href="<?php echo base_url();?>js/inc/TimeCircles.css" >
     </head>
     <body id="page-top">

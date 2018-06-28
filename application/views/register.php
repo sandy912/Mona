@@ -41,7 +41,7 @@
                 You must follow <a href="https://t.me/CoinFirefly" target="_blank">Monacoin</a> on Telegram and stay untill airdrop to receive 20 MONA coins.<br />
               </div>
             <label class="has-float-label">
-              <input id="user_twitter" name="user_telegram" type="text" placeholder="@johndoe" required/>
+              <input id="user_telegram" name="user_telegram" type="text" placeholder="@johndoe" required/>
               <span>Telegram username</span>
             </label>
             <div>

@@ -1,20 +1,4 @@
 
-<footer>
-      <div class="container">
-        <p style="position: relative; top: 15px;">Monacoin &copy; 2018. All Rights Reserved.</p>
-        <ul class="list-inline" style="visibility:hidden">
-          <li class="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
-      </div>
-</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
